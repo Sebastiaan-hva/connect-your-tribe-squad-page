@@ -11,7 +11,7 @@
 
 <ul>
   {% for person in persons reversed%}
-    <li><a href="/student/{{ person.id }}">{{ person.name }}</a></li>
+    <li><a href="/student/{{ person.id }}">{{ person.name }} {{ person.birthdate }}</a></li>
   {% endfor %}
 </ul>
 
